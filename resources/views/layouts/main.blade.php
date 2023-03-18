@@ -23,9 +23,6 @@
                             <a class="nav-link" href="{{route('post.index')}}">Post</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('contact.index')}}">Contacts</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="{{route('about.index')}}">About</a>
                         </li>
                         @can( 'view', auth()->user())

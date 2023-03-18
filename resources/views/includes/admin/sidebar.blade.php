@@ -3,9 +3,8 @@
 
         <li class="nav-header">ADMIN PANEL</li>
         <li class="nav-item">
-            <a href="pages/calendar.html" class="nav-link">
+            <a href="" class="nav-link">
                 <i class="nav-icon fas fa-align-justify"></i>
-{{--                <i class="fa-solid fa-align-justify"></i>--}}
                 <p>
                     Posts
                     <span class="badge badge-info right">{{ $posts->total() }} </span>
